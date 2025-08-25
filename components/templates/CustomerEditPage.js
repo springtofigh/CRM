@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 import moment from 'moment';
 
 function CustomerEditPage({data, id}) {
-    const date = data.date ? moment.utc().format("YYYY-MM-DD") : "";
+    const date = data.date ? moment(data.date).utc().format("YYYY-MM-DD") : "";
 
     const [form , setForm] = useState({
         name: data.name,
