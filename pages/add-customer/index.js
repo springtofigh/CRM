@@ -1,10 +1,9 @@
-import React from 'react'
 import AddCustomerPage from '../../components/templates/AddCustomerPage'
 
-function index() {
+function Index() {
   return (
     <AddCustomerPage/>
   )
 }
 
-export default index
+export default Index

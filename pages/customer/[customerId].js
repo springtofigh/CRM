@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import CustomerDetailsPage from "../../components/templates/CustomerDetailsPage";
 
-function index() {
+function Index() {
     const [ data, setData ] = useState(null);
 
     const router = useRouter();
@@ -20,4 +20,4 @@ function index() {
     if (data) return <CustomerDetailsPage data={data} />
 }
 
-export default index
+export default Index;
