@@ -1,6 +1,6 @@
 # CRM - Customer Management 🧾
 
-**CRM** is a full-stack CRM (Customer Relationship Management) application developed with **Next.js**, allowing administrators to manage customer data with full CRUD functionality.
+**CRM** is a full-stack Customer Relationship Management application developed with **Next.js**, allowing administrators to manage customer data with full CRUD functionality.
 
 ## 🚀 Features
 
